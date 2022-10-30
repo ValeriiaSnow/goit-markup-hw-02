@@ -1,0 +1,78 @@
+:root{
+    --accent-color: #2196F3;
+    --title-color: #212121;
+    --text-color: #757575;
+    --clear-white: #FFFFFF;
+}
+/*                   STUDIO                  */
+/* 0 - smth main */
+body {
+    background-color: #F5F5F5;
+    color: var(--text-color);
+    font-family: Roboto, sans-serif;;
+}
+/* remove points in all list*/
+body ul {
+    list-style: none;
+}
+
+/* 1 - HEADER */
+.logo {
+    color: #000000;
+}
+.logo .logo-web {
+    color: var(--accent-color);
+}
+.site-nav .link {
+    color: var(--title-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+/* при наведенні змінюється колір + фокус */
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.mail-tel .link {
+    color: var(--text-color);
+}
+.mail-tel .link:hover,
+.mail-tel .link:focus {
+    color: var(--accent-color);
+}
+
+
+/* 2- MAIN */
+/* section 1 */
+.first-page {
+    background-color: #000000;
+}
+.first-page h1 {
+    color: var(--clear-white);
+}
+.order-service {
+    background-color: var(--accent-color);
+    color: var(--clear-white);
+}
+/* section 2 */
+.quality h3{
+    color: var(--title-color);
+}
+/* section 3-4 */
+.what-do h2,
+.team h2,
+.team h3{
+    color: var(--title-color);
+}
+
+/* 3 - FOOTER */
+.footer{
+    background: #2F303A;
+}
+.mail-tel .link {
+    color: var(--text-color);
+}
+.address .link {
+    color: var(--clear-white);
+}
