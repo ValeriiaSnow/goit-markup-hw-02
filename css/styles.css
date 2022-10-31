@@ -94,6 +94,11 @@ body ul {
     color: var(--text-color);
 }
 
+.address-item-mail-tel .link:hover,
+.address-item-mail-tel .link:focus {
+    color: var(--accent-color);
+}
+
 .address-item-address .link {
     color: var(--clear-white);
 }
