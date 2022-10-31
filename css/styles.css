@@ -7,7 +7,6 @@
 /*   ------------------------------  STUDIO ----------------------  */
 /* 0 ------------------ smth main */
 body {
-    background-color: #F5F5F5;
     color: var(--text-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
@@ -90,14 +89,17 @@ body ul {
     font-size: 14px;
     line-height: 1.71;
     font-style: normal;
+    letter-spacing: 0.03em;
 }
 
 .address-item-mail-tel .link {
-    color: var(--text-color);
+    color: rgba(255, 255, 255, 0.6);;
 }
 
 .address-item-mail-tel .link:hover,
-.address-item-mail-tel .link:focus {
+.address-item-mail-tel .link:focus,
+.address-item-address .link:hover,
+.address-item-address .link:focus {
     color: var(--accent-color);
 }
 
@@ -108,7 +110,7 @@ body ul {
 
 /* 3 ------------------------------ MAIN = Studio */
 /* section 1 */
-.solutions {
+.hero {
     background-color: #2F303A;;
     font-weight: 900;
     font-size: 44px;
@@ -117,12 +119,18 @@ body ul {
     letter-spacing: 0.06em;
 }
 
-.solutions-title {
+.hero-title {
     color: var(--clear-white);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
-.solutions-order-service {
+.hero .button {
     font-family: inherit;
     font-style: 400;
     background-color: var(--accent-color);
@@ -135,6 +143,15 @@ body ul {
     letter-spacing: 0.06em;
     text-decoration: none;
     cursor: pointer;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.hero .button:hover,
+.hero .button:focus {
+    background-color: var(--accent-color);
+    border: none;
 }
 
 /* section 2 */
@@ -149,6 +166,11 @@ body ul {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+}
+
+.quality,
+.what-do{
+    background-color: #F5F5F5;
 }
 
 /* section 3-4 */
@@ -171,7 +193,7 @@ body ul {
 }
 
 .team-item {
-    background: var(--clear-white);
+    background-color: var(--clear-white);
 }
 
 .team-item-title,
@@ -197,11 +219,13 @@ body ul {
     background-color: var(--accent-color);
     color: var(--clear-white);
     border: none;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
-.type-work-list{
+/* .type-work-list{
     background-color: #F5F4FA;
-}
+} */
 
 .type-work-list .button {
     font-family: inherit;
@@ -212,12 +236,17 @@ body ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-color);
+    background-color: #F5F4FA;
     text-decoration: none;
     cursor: pointer;
+    border-radius: 4px;
+    box-shadow: none;
+    border: none;
 }
 
 .type-work-photo-item {
     background-color: var(--clear-white);
+    border: 1px solid #EEEEEE;
 }
 
 .type-work-photo-title {
