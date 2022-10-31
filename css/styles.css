@@ -64,7 +64,8 @@ body ul {
     color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.site-nav .link.current,
+.mail-tel .link.current {
     color: var(--accent-color);
 }
 
@@ -88,6 +89,7 @@ body ul {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    font-style: normal;
 }
 
 .address-item-mail-tel .link {
