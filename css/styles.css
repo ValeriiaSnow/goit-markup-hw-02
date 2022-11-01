@@ -63,8 +63,7 @@ body ul {
     color: var(--accent-color);
 }
 
-.site-nav .link.current,
-.mail-tel .link.current {
+.site-nav .link.current{
     color: var(--accent-color);
 }
 
@@ -168,10 +167,10 @@ body ul {
     line-height: 1.71;
 }
 
-.quality,
+/* .quality,
 .what-do{
     background-color: #F5F5F5;
-}
+} */
 
 /* section 3-4 */
 .team-title,
